@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         
         let origin : CGRect = imageView.frame
         
-        imageView.frame = CGRect(x: 0, y: 0, width: 0, height: 0)
+        imageView.frame = CGRect(x: 200, y: 400, width: 0, height: 0)
         
         UIView.animate(withDuration: 3) {
             self.imageView.frame = origin
